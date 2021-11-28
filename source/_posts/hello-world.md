@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Hexo commands
 type: "categories"
 tags:
    - Vue
