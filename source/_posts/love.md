@@ -1,5 +1,5 @@
 ---
-title: love study
+title: Hexo commands
 type: "categories"
 tags:
    - Vue
