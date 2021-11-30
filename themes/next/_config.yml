@@ -367,13 +367,13 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
@@ -384,7 +384,7 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: false
+  enable: true
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -560,14 +560,14 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active:
+  active: disqusjs
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
   lazyload: false
   # Modify texts or order for any naves, here are some examples.
   nav:
-    #disqus:
+    #disqusjs:
     #  text: Load Disqus
     #  order: -1
     #gitalk:
@@ -583,21 +583,23 @@ disqus:
 # DisqusJS
 # For more information: https://disqusjs.skk.moe
 disqusjs:
-  enable: false
+  enable: true
   # API Endpoint of Disqus API (https://disqus.com/api/docs/).
   # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api:
-  apikey: # Register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  api: https://disqus.skk.moe/disqus/
+  # Register new application from https://disqus.com/api/applications/
+  apikey: EkmTVrvlNQc3y42HVnd2ElFTUiz1RVRX83Lt4pnmSFMd7qdcrhryxR43nULkmK27 
+  # See: https://disqus.com/admin/settings/general/
+  shortname: xieyang 
 
 # Changyan
 # For more information: https://changyan.kuaizhan.com
 changyan:
   enable: false
   appid:
-  appkey:
+  appkey: 
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
