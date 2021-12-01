@@ -575,8 +575,8 @@ comments:
 
 valine:
   enable: true
-  appId:  snax8VuaMbKLvK1sCwOrqb93-gzGzoHsz # Your leancloud application appid
-  appKey:  vdoGTnmqmVxHM2xSxvVa29XG # Your leancloud application appkey
+  appId: snax8VuaMbKLvK1sCwOrqb93-gzGzoHsz # Your leancloud application appid
+  appKey: vdoGTnmqmVxHM2xSxvVa29XG # Your leancloud application appkey
   placeholder: "输入你的评论\n昵称为必填项目，输入QQ号可以直接获取用户名和头像，并且省去了填写邮箱的麻烦！\n虽然email不是必选，但是填写了email可以收到推送通知哦！" # Comment box placeholder
   avatar: "" # Gravatar style
   meta: [nick, mail] # Custom comment header
