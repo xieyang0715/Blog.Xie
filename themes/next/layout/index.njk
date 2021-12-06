@@ -10,6 +10,7 @@
   {%- for post in page.posts.toArray() %}
     {{ partial('_macro/post.njk', {post: post, is_index: true}) }}
   {%- endfor %}
+  {%- include '_partials/comments.njk' -%}
 
   {%- include '_partials/pagination.njk' -%}
 
