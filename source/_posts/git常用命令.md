@@ -17,6 +17,7 @@ git remote add origin url
 git remote
 ```
 
+<!--more-->
 删除远程仓库：
 
 ```
@@ -42,7 +43,6 @@ git reset HEAD~
 git reset HEAD~N
 ```
 
-<!--more-->
 
 本地回到指定版本：
 
