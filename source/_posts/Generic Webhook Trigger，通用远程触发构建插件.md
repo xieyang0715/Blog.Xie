@@ -16,6 +16,7 @@ toc: true
 >  4.可以使用token参数区别不同的构建项目 
 
 
+<!--more-->
 # jenkins设置
 
 >  1.下载generic-webhook-trigger插件，路径：系统管理 > 插件管理   
