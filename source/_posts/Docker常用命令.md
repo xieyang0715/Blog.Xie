@@ -104,6 +104,13 @@ docker 复制：
 docker cp  /usr/src/public-data/blog/public/.  blog:/var/www/html/
 ```
 
+docker 直接对容器执行命令：
+
+```
+docker exec -it 容器id/容器名 命令
+如：docker exec -it blog sh -c 'rm -rf /111/*'
+```
+
 **[Docker 文档](https://docs.docker.com/)**  
 **[Docker 菜鸟教程](https://www.runoob.com/docker/docker-run-command.html)**  
 **[加速地址 https://ung2thfc.mirror.aliyuncs.com](https://ung2thfc.mirror.aliyuncs.com)**

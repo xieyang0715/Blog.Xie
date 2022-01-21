@@ -162,5 +162,12 @@ killall [参数] 服务名称
 killall nginx
 ```
 
+让 bash 将一个字串作为完整的命令来执行
+
+```
+sh -c
+如：docker exec -it blog sh -c 'rm -rf /111/*'
+```
+
 **[Linux 基础](https://www.linuxprobe.com/)**  
 **[Linux 命令大全](https://www.linuxcool.com/)**
