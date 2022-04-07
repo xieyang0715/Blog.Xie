@@ -25,14 +25,14 @@ toc: true
 
 变量值（JDK安装路径）：C:\Program Files\Java\jdk-17.0.1
 
-![image-20220406112701377](http://r61ygz0f5.hn-bkt.clouddn.com/image-20220406112701377.png)
+![image-20220406112701377](http://image.blog.cdzq.ltd/image-20220406112701377.png)
 
 ##### 3.新建/修改 CLASSPATH 变量
 
 变量名：CLASSPATH
 变量值：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
 
-![image-20220406113254122](http://r61ygz0f5.hn-bkt.clouddn.com/image-20220406113254122.png)
+![image-20220406113254122](http://image.blog.cdzq.ltd/image-20220406113254122.png)
 
 ##### 4. 修改Path 变量
 
@@ -41,10 +41,10 @@ toc: true
 %JAVA_HOME%\bin
 %JAVA_HOME%\jre\bin
 
-![image-20220406113516902](http://r61ygz0f5.hn-bkt.clouddn.com/image-20220406113516902.png)
+![image-20220406113516902](http://image.blog.cdzq.ltd/image-20220406113516902.png)
 
 ##### 5.检查Java环境
 
 cmd窗口输入java 或者 java -version
 
-![image-20220406113656678](http://r61ygz0f5.hn-bkt.clouddn.com/image-20220406113656678.png)
+![image-20220406113656678](http://image.blog.cdzq.ltd/image-20220406113656678.png)
