@@ -3,9 +3,9 @@
 title: Spring web应用统一异常处理
 date: 2022-04-15 15:47:00
 categories: 
-   - Spring 
-   - Java 
-   - 异常处理
+   - [Spring] 
+   - [Java] 
+   - [异常处理]
 toc: true
 ---
 
