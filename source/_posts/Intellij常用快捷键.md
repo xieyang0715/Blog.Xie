@@ -2,7 +2,7 @@
 
 title: Intellij 常用快捷键
 date: 2022-04-08 15:30:00
-categories: Intellij 快捷键
+categories: Intellij
 toc: true
 ---
 
