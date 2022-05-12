@@ -11,10 +11,10 @@ toc: true
 docker build -t my_webapi05 .
 ```
 
-运行镜像(-d 指定容器后台运行,--name 容器别名，-p 指定端口 主机端口：容器端口)
+运行镜像(-i: 交互式操作 -t: 终端 -d 指定容器后台运行,--name 容器别名，-p 指定端口 主机端口：容器端口)
 
 ```
-docker run --name my_webapi_test -p 8088:80 -d my_webapi_06
+docker run -itd --name my_webapi_test -p 8088:80  my_webapi_06
 ```
 
 <!--more-->
