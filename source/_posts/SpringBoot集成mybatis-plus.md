@@ -83,7 +83,7 @@ public class Account {
 
 - @Accessors		
 
-  ​		loombok注解，chain中文含义是链式的，设置为true，则setter方法返回当前对象
+  ​		lombok注解，chain中文含义是链式的，设置为true，则setter方法返回当前对象
 
   ​    	luent的中文含义是流畅的，设置为true，则getter和setter方法的方法名都是基础属性名，且setter方法返回当前对象
 
@@ -191,10 +191,10 @@ public class AccountServiceImpl implements AccountService {
 ```
 
 @Service：自动注册到spring容器
-@RequiredArgsConstructor：loombok的注解，生成带有必须参数的构造函数。这里用来注入AccountServiceMapper，和@Autowired功能一致。
+@RequiredArgsConstructor：lombok的注解，生成带有必须参数的构造函数。这里用来注入AccountServiceMapper，和@Autowired功能一致。
 
 
 
-[loombok注解]: https://projectlombok.org/features/all
+[lombok注解]: https://projectlombok.org/features/all
 [mybatis-plus文档]: https://baomidou.com/
 
